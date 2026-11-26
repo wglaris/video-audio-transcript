@@ -1,0 +1,10 @@
+outputs
+work
+.DS_Store
+*.zip
+.env
+.env.*
+launchd
+install-background-service.sh
+uninstall-background-service.sh
+open-tool.command

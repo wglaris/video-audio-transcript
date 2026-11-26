@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.video-audio-transcript.tool</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/sh</string>
+    <string>${HOME}/Library/Application Support/VideoAudioTranscriptTool/start.sh</string>
+  </array>
+
+  <key>WorkingDirectory</key>
+  <string>${HOME}/Library/Application Support/VideoAudioTranscriptTool</string>
+
+  <key>RunAtLoad</key>
+  <true/>
+
+  <key>KeepAlive</key>
+  <true/>
+
+  <key>StandardOutPath</key>
+  <string>${HOME}/Library/Application Support/VideoAudioTranscriptTool/work/logs/app.out.log</string>
+
+  <key>StandardErrorPath</key>
+  <string>${HOME}/Library/Application Support/VideoAudioTranscriptTool/work/logs/app.err.log</string>
+</dict>
+</plist>

@@ -1,0 +1,30 @@
+.DS_Store
+
+# Generated media, transcripts, exports, and logs
+outputs/
+work/
+*.zip
+*.mp3
+*.m4a
+*.wav
+*.mp4
+*.webm
+*.mkv
+*.vtt
+
+# Dependencies and local environment
+node_modules/
+.env
+.env.*
+
+# Secrets and credentials
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+cookies.txt
+*.cookies
+
+# OS/editor noise
+.idea/
+.vscode/
